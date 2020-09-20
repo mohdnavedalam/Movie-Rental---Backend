@@ -1,0 +1,15 @@
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\bin\Debug\Movie Rental - Backend.exe.config
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\bin\Debug\Movie Rental - Backend.exe
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\bin\Debug\Movie Rental - Backend.pdb
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\bin\Debug\EntityFramework.dll
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\bin\Debug\EntityFramework.SqlServer.dll
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\bin\Debug\EntityFramework.xml
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\bin\Debug\EntityFramework.SqlServer.xml
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie Rental - Backend.csprojAssemblyReference.cache
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie Rental - Backend.csproj.CoreCompileInputs.cache
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie Rental - Backend.csproj.CopyComplete
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie Rental - Backend.exe
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie Rental - Backend.pdb
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie_Rental___Backend.DbMovieRental.MovieRentalMigrations.InitialModel.resources
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie Rental - Backend.csproj.GenerateResource.cache
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie_Rental___Backend.DbMovieRental.MovieRentalMigrations.PopulateTableGenre.resources
