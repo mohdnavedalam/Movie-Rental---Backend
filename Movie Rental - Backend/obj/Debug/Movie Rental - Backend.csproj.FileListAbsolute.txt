@@ -17,3 +17,5 @@ D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\
 D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie_Rental___Backend.DbMovieRental.MovieRentalMigrations.AddColumnClassificationToTableVideos.resources
 D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie_Rental___Backend.DbMovieRental.MovieRentalMigrations.EnhanceTablesVideosGenres.resources
 D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie_Rental___Backend.DbMovieRental.MovieRentalMigrations.dropConstraint.resources
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie_Rental___Backend.DbMovieRental.MovieRentalMigrations.AddTableTagsRelateWithTableVideosSetNamesOfColumnsForTableVideoTag.resources
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie_Rental___Backend.DbMovieRental.MovieRentalMigrations.SetRequiredColumnNameTableTag.resources

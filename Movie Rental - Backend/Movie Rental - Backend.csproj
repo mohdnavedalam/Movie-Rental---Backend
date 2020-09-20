@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbMovieRental\EntityTypeConfigurations\GenreConfiguration.cs" />
+    <Compile Include="DbMovieRental\EntityTypeConfigurations\TagConfiguration.cs" />
     <Compile Include="DbMovieRental\EntityTypeConfigurations\VideoConfiguration.cs" />
     <Compile Include="DbMovieRental\MovieRentalMigrations\202009201440165_InitialModel.cs" />
     <Compile Include="DbMovieRental\MovieRentalMigrations\202009201440165_InitialModel.designer.cs">
@@ -79,10 +80,19 @@
     <Compile Include="DbMovieRental\MovieRentalMigrations\202009201942055_dropConstraint.designer.cs">
       <DependentUpon>202009201942055_dropConstraint.cs</DependentUpon>
     </Compile>
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202009202001056_AddTableTagsRelateWithTableVideosSetNamesOfColumnsForTableVideoTag.cs" />
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202009202001056_AddTableTagsRelateWithTableVideosSetNamesOfColumnsForTableVideoTag.designer.cs">
+      <DependentUpon>202009202001056_AddTableTagsRelateWithTableVideosSetNamesOfColumnsForTableVideoTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202009202008053_SetRequiredColumnNameTableTag.cs" />
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202009202008053_SetRequiredColumnNameTableTag.designer.cs">
+      <DependentUpon>202009202008053_SetRequiredColumnNameTableTag.cs</DependentUpon>
+    </Compile>
     <Compile Include="DbMovieRental\MovieRentalMigrations\Configuration.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\Classification.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\Genre.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\MovieRentalBackendContext.cs" />
+    <Compile Include="DbMovieRental\MovieRentalModel\Tag.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\Video.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -109,6 +119,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DbMovieRental\MovieRentalMigrations\202009201942055_dropConstraint.resx">
       <DependentUpon>202009201942055_dropConstraint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbMovieRental\MovieRentalMigrations\202009202001056_AddTableTagsRelateWithTableVideosSetNamesOfColumnsForTableVideoTag.resx">
+      <DependentUpon>202009202001056_AddTableTagsRelateWithTableVideosSetNamesOfColumnsForTableVideoTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbMovieRental\MovieRentalMigrations\202009202008053_SetRequiredColumnNameTableTag.resx">
+      <DependentUpon>202009202008053_SetRequiredColumnNameTableTag.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

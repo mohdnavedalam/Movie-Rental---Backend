@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Movie_Rental___Backend.DbMovieRental.MovieRentalModel
 {
@@ -9,6 +10,11 @@ namespace Movie_Rental___Backend.DbMovieRental.MovieRentalModel
         public DateTime ReleaseDate { get; set; }
         public Classification Classification { get; set; }
         public int GenreID { get; set; }
-        public Genre Genre { get; set; }      
+        public Genre Genre { get; set; }
+        public IList<Tag> Tags { get; set; }
+        public Video()
+        {
+            Tags = new List<Tag>();
+        }
     }
 }
