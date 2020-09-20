@@ -13,3 +13,4 @@ D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\
 D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie_Rental___Backend.DbMovieRental.MovieRentalMigrations.InitialModel.resources
 D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie Rental - Backend.csproj.GenerateResource.cache
 D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie_Rental___Backend.DbMovieRental.MovieRentalMigrations.PopulateTableGenre.resources
+D:\CSharp\Udemy\Mosh Hamedani\Entity Framework\Exercises\Movie Rental - Backend\Movie Rental - Backend\obj\Debug\Movie_Rental___Backend.DbMovieRental.MovieRentalMigrations.ModifyRelationshipTablesVideoGenre.resources

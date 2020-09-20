@@ -61,6 +61,10 @@
     <Compile Include="DbMovieRental\MovieRentalMigrations\202009201449075_PopulateTableGenre.designer.cs">
       <DependentUpon>202009201449075_PopulateTableGenre.cs</DependentUpon>
     </Compile>
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202009201831524_ModifyRelationshipTablesVideoGenre.cs" />
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202009201831524_ModifyRelationshipTablesVideoGenre.designer.cs">
+      <DependentUpon>202009201831524_ModifyRelationshipTablesVideoGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="DbMovieRental\MovieRentalMigrations\Configuration.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\MovieRentalBackendContext.cs" />
     <Compile Include="Program.cs" />
@@ -76,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DbMovieRental\MovieRentalMigrations\202009201449075_PopulateTableGenre.resx">
       <DependentUpon>202009201449075_PopulateTableGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbMovieRental\MovieRentalMigrations\202009201831524_ModifyRelationshipTablesVideoGenre.resx">
+      <DependentUpon>202009201831524_ModifyRelationshipTablesVideoGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
