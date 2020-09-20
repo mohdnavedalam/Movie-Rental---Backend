@@ -70,7 +70,10 @@
       <DependentUpon>202009201846181_AddColumnClassificationToTableVideos.cs</DependentUpon>
     </Compile>
     <Compile Include="DbMovieRental\MovieRentalMigrations\Configuration.cs" />
+    <Compile Include="DbMovieRental\MovieRentalModel\Classification.cs" />
+    <Compile Include="DbMovieRental\MovieRentalModel\Genre.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\MovieRentalBackendContext.cs" />
+    <Compile Include="DbMovieRental\MovieRentalModel\Video.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
