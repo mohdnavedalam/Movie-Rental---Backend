@@ -19,6 +19,7 @@ namespace Movie_Rental___Backend.DbMovieRental.MovieRentalModel
         public int ID { get; set; }
         public string Name { get; set; }
         public DateTime ReleaseDate { get; set; }
+        public Classification Classification { get; set; }
         public int GenreID { get; set; }
         public Genre Genre { get; set; }      
     }
@@ -32,5 +33,12 @@ namespace Movie_Rental___Backend.DbMovieRental.MovieRentalModel
         {
             Videos = new List<Video>();
         }
+    }
+
+    public enum Classification
+    {
+        Silver = 1,
+        Gold = 2,
+        Platinum = 3
     }
 }
