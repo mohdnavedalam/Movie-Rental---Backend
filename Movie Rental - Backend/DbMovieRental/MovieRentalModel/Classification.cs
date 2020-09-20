@@ -1,6 +1,6 @@
 ﻿namespace Movie_Rental___Backend.DbMovieRental.MovieRentalModel
 {
-    public enum Classification
+    public enum Classification : byte
     {
         Silver = 1,
         Gold = 2,

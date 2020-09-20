@@ -53,6 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DbMovieRental\EntityTypeConfigurations\GenreConfiguration.cs" />
+    <Compile Include="DbMovieRental\EntityTypeConfigurations\VideoConfiguration.cs" />
     <Compile Include="DbMovieRental\MovieRentalMigrations\202009201440165_InitialModel.cs" />
     <Compile Include="DbMovieRental\MovieRentalMigrations\202009201440165_InitialModel.designer.cs">
       <DependentUpon>202009201440165_InitialModel.cs</DependentUpon>
@@ -68,6 +70,14 @@
     <Compile Include="DbMovieRental\MovieRentalMigrations\202009201846181_AddColumnClassificationToTableVideos.cs" />
     <Compile Include="DbMovieRental\MovieRentalMigrations\202009201846181_AddColumnClassificationToTableVideos.designer.cs">
       <DependentUpon>202009201846181_AddColumnClassificationToTableVideos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202009201929348_EnhanceTablesVideosGenres.cs" />
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202009201929348_EnhanceTablesVideosGenres.designer.cs">
+      <DependentUpon>202009201929348_EnhanceTablesVideosGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202009201942055_dropConstraint.cs" />
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202009201942055_dropConstraint.designer.cs">
+      <DependentUpon>202009201942055_dropConstraint.cs</DependentUpon>
     </Compile>
     <Compile Include="DbMovieRental\MovieRentalMigrations\Configuration.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\Classification.cs" />
@@ -94,7 +104,14 @@
     <EmbeddedResource Include="DbMovieRental\MovieRentalMigrations\202009201846181_AddColumnClassificationToTableVideos.resx">
       <DependentUpon>202009201846181_AddColumnClassificationToTableVideos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DbMovieRental\MovieRentalMigrations\202009201929348_EnhanceTablesVideosGenres.resx">
+      <DependentUpon>202009201929348_EnhanceTablesVideosGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbMovieRental\MovieRentalMigrations\202009201942055_dropConstraint.resx">
+      <DependentUpon>202009201942055_dropConstraint.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
