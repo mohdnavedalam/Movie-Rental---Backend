@@ -88,12 +88,18 @@
     <Compile Include="DbMovieRental\MovieRentalMigrations\202009202008053_SetRequiredColumnNameTableTag.designer.cs">
       <DependentUpon>202009202008053_SetRequiredColumnNameTableTag.cs</DependentUpon>
     </Compile>
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202010111606513_AddTableTag.cs" />
+    <Compile Include="DbMovieRental\MovieRentalMigrations\202010111606513_AddTableTag.designer.cs">
+      <DependentUpon>202010111606513_AddTableTag.cs</DependentUpon>
+    </Compile>
     <Compile Include="DbMovieRental\MovieRentalMigrations\Configuration.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\Classification.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\Genre.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\MovieRentalBackendContext.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\Tag.cs" />
     <Compile Include="DbMovieRental\MovieRentalModel\Video.cs" />
+    <Compile Include="Exercise_3.cs" />
+    <Compile Include="Exercise_5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DbMovieRental\MovieRentalMigrations\202009202008053_SetRequiredColumnNameTableTag.resx">
       <DependentUpon>202009202008053_SetRequiredColumnNameTableTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DbMovieRental\MovieRentalMigrations\202010111606513_AddTableTag.resx">
+      <DependentUpon>202010111606513_AddTableTag.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

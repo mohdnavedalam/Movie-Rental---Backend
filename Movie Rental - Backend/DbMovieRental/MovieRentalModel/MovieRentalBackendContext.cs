@@ -9,6 +9,7 @@ namespace Movie_Rental___Backend.DbMovieRental.MovieRentalModel
         public MovieRentalBackendContext() : base("name=MovieRentalBackendContext") { }
         public DbSet<Video> Videos { get; set; }
         public DbSet<Genre> Genres { get; set; }
+        public DbSet<Tag> Tags { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

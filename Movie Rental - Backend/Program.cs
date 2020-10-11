@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Movie_Rental___Backend.DbMovieRental.MovieRentalModel;
+﻿using Movie_Rental___Backend.DbMovieRental.MovieRentalModel;
+using System;
 
 namespace Movie_Rental___Backend
 {
@@ -12,100 +7,38 @@ namespace Movie_Rental___Backend
     {
         static void Main(string[] args)
         {
-            var context = new MovieRentalBackendContext();
+            //Exercise_3.ExecuteExercise_3();
 
-            Console.WriteLine("Action Movies Sorted by Name by Name First\n");
+            //Exercise 5:
+            //Task - 1
+            //Here, the GenreID is hardcoded to 2.
+            //In a real-world application,
+            // the user often selects the genre from a drop-down list. There, you should
+            // have the Id for each genre. If you're building a WPF application, this 
+            // GenreId is already in the memory. If you're building an ASP.NET MVC application,
+            // the GenreId is posted with the request and you can set it here. 
+            //Exercise_5.AddVideo(new Video
+            //{
+            //    Name = "Terminator 1",
+            //    GenreID = 2,
+            //    Classification = Classification.Silver,
+            //    ReleaseDate = new DateTime(1984, 10, 26)
+            //});
 
-            var ActionMoviesByName = context.Videos.Where(v => v.Genre.Name == "Action").OrderBy(v => v.Name);
+            // Task - 2
+            //Exercise_5.AddTags("classics", "drama");
 
-            foreach (var x in ActionMoviesByName)
-                Console.WriteLine(x.Name);
+            //Task - 3
+            //Exercise_5.AddTagsToVideo(1, "classics", "drama", "comedy");
 
-            Console.WriteLine("\n\n\n");
+            //Task - 4
+            //Exercise_5.RemoveTagsFromVideo(1, "comedy"); // Can't remove the tag. Pending
 
-            Console.WriteLine("Gold Drama Movies by Name by Newest First\n");
+            //Task - 5
+            //Exercise_5.RemoveVideo(1); // Check if the video with the given ID exists
 
-            var GoldDramaMoviesByNewestFirst = context.Videos
-                .Where(v => v.Genre.Name == "Drama" && v.Classification == Classification.Gold)
-                .OrderByDescending(v => v.ReleaseDate);
-
-            foreach(var x in GoldDramaMoviesByNewestFirst)
-                Console.WriteLine(x.Name);
-
-            Console.WriteLine("\n\n\n");
-
-            Console.WriteLine("All movies projected into an anonymous type with two properties\n");
-
-            var MoviesWithTwoProperties = context.Videos
-                .Select(v => new { MovieName = v.Name, Genre = v.Genre.Name });
-
-            foreach(var x in MoviesWithTwoProperties)
-                Console.WriteLine("{0}\t{1}", x.Genre, x.MovieName);
-
-            Console.WriteLine("\n\n\n");
-
-            Console.WriteLine("All movies grouped by their classification\n");
-
-            var MoviesGroupedByClassification = context.Videos
-                .GroupBy(v => v.Classification)
-                .Select(g => new
-                {
-                    Classification = g.Key.ToString(),
-                    Videos = g.OrderBy(v => v.Name)
-                });
-
-            foreach(var x in MoviesGroupedByClassification)
-            {
-                Console.WriteLine("Classification : {0}", x.Classification);
-
-                foreach(var y in x.Videos)
-                    Console.WriteLine("\t{0}", y.Name);
-            }
-
-            Console.WriteLine("\n\n\n");
-
-            Console.WriteLine("List of classifications sorted alphabetically and count of videos in them\n");
-
-            var VideosCountByClassification = context.Videos
-                .GroupBy(v => v.Classification)
-                .Select(v => new
-                {
-                    Classification = v.Key.ToString(),
-                    Videos = v.Count()
-                })
-                .OrderBy(c => c.Classification);
-
-            foreach(var x in VideosCountByClassification)
-                Console.WriteLine("{0}({1})", x.Classification, x.Videos);
-
-            Console.WriteLine("\n\n\n");
-
-            Console.WriteLine("List of genres and number of videos they include, sorted by the number of videos\n");
-
-            var GenresCountByNumber = context.Genres
-                .GroupJoin(context.Videos, g => g.ID, v => v.GenreID, (genre, videos) => new
-                {
-                    Name = genre.Name,
-                    VideosCount = videos.Count()
-                })
-                .OrderByDescending(g => g.VideosCount);
-
-            foreach(var x in GenresCountByNumber)
-                Console.WriteLine("{0}({1})", x.Name, x.VideosCount);
-
-            Console.WriteLine("\n\n\n");
-
-            var abcde = context.Videos
-                .GroupBy(v => v.Genre.Name)
-                .Select(g => new
-                {
-                    GenreName = g.Key.ToString(),
-                    VideosCount = g.Count()
-                })
-                .OrderByDescending(c => c.VideosCount);
-
-            foreach(var x in abcde)
-                Console.WriteLine("{0}({1})", x.GenreName, x.VideosCount);
+            //Task - 6
+            Exercise_5.RemoveGenre(2, true);
         }
     }
 }
